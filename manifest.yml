@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: HelloWorldCF
+  host: HelloWorldCF
+  disk_quota: 1024M
